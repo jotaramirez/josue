@@ -1,0 +1,42 @@
+# josue
+<!DOCTYPE html>
+<html>
+<head>
+	<title>System-------START</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet"type="text/css" href="style.css">
+</head>
+<body>
+	<div align="center">
+		<table width=200px>
+	
+	<tr>
+		<td colspan="2">
+			<img src="https://ufidelitas.ac.cr/wp-content/themes/fidelitas_theme/assets/img/logo-fidelitas.png" width="100%">
+		</td>
+	</tr>
+		<td>
+			<label>User:</label>
+		</td>
+		<td>
+			<input class=type="text" name="user">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<label for="pass">Pass:</label>
+		</td>
+		<td>
+			<input type="password" name="pass" id="pass">
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" style="text-align: center;">
+			<button  style="font-size: 20px; border-radius: 8px; background-color: #0E1099; color: #ffffff">Go</button>
+		</td>
+	</tr>
+</table>
+</div>
+<input type="checkbox" name="pass" id="check" checked="true">
+</body>
+</html>
